@@ -1,0 +1,191 @@
+/* Estilos previos... */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #1a1a2e; /* Tono morado oscuro */
+  color: #fff; /* Color de texto */
+}
+
+.calculator {
+  background-color: #222; /* Color de fondo de la calculadora */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  max-width: 300px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.display {
+  width: calc(100% - 10px);
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 24px;
+  border: none;
+  border-radius: 5px;
+  text-align: right;
+  background-color: #333; /* Color de fondo del display */
+  color: #ffcc00; /* Color de texto del display */
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+
+button {
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #444; /* Color de fondo de los botones */
+  color: #fff; /* Color de texto de los botones */
+  transition: box-shadow 0.3s ease;
+  position: relative;
+}
+
+button:hover {
+  box-shadow: 0 0 0 3px #fff; /* Mostrar un marco blanco al pasar el mouse */
+}
+
+.operator {
+  background-color: #ff9500; /* Color de fondo de los botones de operadores */
+}
+
+.operator:hover {
+  background-color: #d17c00; /* Color de fondo de los botones de operadores al pasar el mouse */
+}
+/* Estilos previos... */
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #1a1a2e; /* Tono morado oscuro */
+  color: #fff; /* Color de texto */
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.calculator {
+  background-color: #222; /* Color de fondo de la calculadora */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  max-width: 300px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.display {
+  width: calc(100% - 10px);
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 24px;
+  border: none;
+  border-radius: 5px;
+  text-align: right;
+  background-color: #333; /* Color de fondo del display */
+  color: #ffcc00; /* Color de texto del display */
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+
+button {
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #444; /* Color de fondo de los botones */
+  color: #fff; /* Color de texto de los botones */
+  transition: box-shadow 0.3s ease;
+  position: relative;
+}
+
+button:hover {
+  box-shadow: 0 0 0 3px #fff; /* Mostrar un marco blanco al pasar el mouse */
+}
+
+.operator {
+  background-color: #ff9500; /* Color de fondo de los botones de operadores */
+}
+
+.operator:hover {
+  background-color: #d17c00; /* Color de fondo de los botones de operadores al pasar el mouse */
+}
+
+/* Estilos previos... */
+
+/* ... */
+
+.footer {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.neon-text {
+  position: relative;
+  color: #fff; /* Color base */
+}
+
+.neon-text::before {
+  content: 'teqae';
+  position: absolute;
+  top: 0; 
+  left: 0;
+  text-shadow: 0 0 5px #3F2DCC, 0 0 10px #3F2DCC, 0 0 15px #3F2DCC, 0 0 20px #3F2DCC; /* Sombra de texto */
+  opacity: 0; /* Inicialmente transparente */
+  animation: neonGlow 1.5s ease-in-out infinite; /* Animación */
+}
+
+@keyframes neonGlow {
+  0% {
+    opacity: 0.5; /* Empezar con una opacidad ligeramente visible */
+  }
+  50% {
+    opacity: 1; /* Alcanzar la máxima opacidad a la mitad */
+    text-shadow: 0 0 5px #3F2DCC, 0 0 10px #3F2DCC, 0 0 15px #3F2DCC, 0 0 20px #3F2DCC; /* Efecto de sombra de texto */
+  }
+  100% {
+    opacity: 0.5; /* Volver a una opacidad ligeramente visible */
+  }
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #1a1a2e; /* Tono morado oscuro */
+  color: #fff; /* Color de texto */
+}
+
+.calculator, .footer {
+  opacity: 0; /* Elementos inicialmente transparentes */
+  visibility: hidden; /* Elementos inicialmente ocultos */
+}
