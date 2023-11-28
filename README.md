@@ -1,6 +1,7 @@
 # Calculadora
 
 Esta es una aplicación web simple de calculadora con efectos de animación al cargar la página.
+ Con mucho amor y dedicación <3
 
 ## Características
 
@@ -25,5 +26,5 @@ Esta es una aplicación web simple de calculadora con efectos de animación al c
 
 ## Autor
 
-- Nombre: teqae
+- Nombre: teqae <3
 - GitHub: https://github.com/teqae
