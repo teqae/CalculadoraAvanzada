@@ -28,3 +28,9 @@ Esta es una aplicación web simple de calculadora con efectos de animación al c
 
 - Nombre: teqae <3
 - GitHub: https://github.com/teqae
+
+## Vista Previa
+
+<p align="center">
+  <img src="https://cdn.discordapp.com/attachments/1167594085029269514/1179221882097127495/image.png?ex=6578fef5&is=656689f5&hm=851773c6c303b439a572721126e82309314911d7df1919a216cfacf4784646a0&" height="500"/>
+</p>
